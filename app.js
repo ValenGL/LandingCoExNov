@@ -1,5 +1,7 @@
 window.addEventListener("scroll", () => {
   const target = document.querySelectorAll(".scroll");
+  $("#SFCont").removeClass("slide-in-left");
+  validateSF();
 
   for (index = 0; index < target.length; index++) {
     let pos = window.pageYOffset * target[index].dataset.sratey;
@@ -13,3 +15,15 @@ window.addEventListener("scroll", () => {
     }
   }
 });
+
+validateSF = () => {
+  let x = window.pageYOffset;
+
+  if (x > 1000) {
+    $("#SFCont").addClass("off");
+    $("#SFCont").removeClass("slide-in-left");
+  } else if (x === 0 && $("#SFCont").hasClass("off")) {
+    $("#SFCont").removeClass("off");
+    $("#SFCont").addClass("slide-in-left");
+  }
+};

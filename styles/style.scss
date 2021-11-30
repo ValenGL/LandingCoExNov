@@ -357,27 +357,44 @@ template {
 body {
   margin: 0;
   height: 100vh;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
   overflow-x: hidden;
-  background: #add9f2;
 }
 
 section {
   height: 100%;
+}
+.SecFirst {
+  display: flex;
 }
 
 .logo {
   font-family: "Tahoma";
   font-weight: bold;
   font-style: italic;
+  font-size: 8vw;
+  max-width: 50%;
+}
+
+#IsoCoEx {
+  width: 8vw;
+  padding-bottom: 4vw;
 }
 
 #colonia {
-  color: #e72629;
+  color: #0258a1;
 }
 #express {
-  color: #0258a1;
+  color: #e72629;
+}
+
+#videoBG {
+  position: fixed;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+  height: auto;
 }
 
 ul {
@@ -392,10 +409,85 @@ ul {
   height: 100vh;
 }
 
-span {
-  width: 300px;
-  height: 180px;
+#SFCont {
   position: absolute;
-  bottom: -3rem;
-  left: 0;
+  bottom: -6.5rem;
+  margin-bottom: -2rem;
+}
+
+#SF {
+  max-width: 100%;
+  height: auto;
+}
+
+.off {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  #SFCont {
+    display: none;
+  }
+}
+
+// SF and LOGO ENTRANCE
+
+.slide-in-left {
+  -webkit-animation: slide-in-left 1s ease-in-out both;
+  animation: slide-in-left 1s ease-in-out both;
+}
+
+.slide-in-top {
+  -webkit-animation: slide-in-top 1s ease-in-out both;
+  animation: slide-in-top 1s ease-in-out both;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

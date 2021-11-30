@@ -6,26 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing CoEx</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
   </head>
   <body>
-    <section>
-      <ul>
-        <li class="logo scroll" data-sratey="-0.70" data-dir="ver">
-          <img src="./assets/isotipo.png" alt="Isotipo Logo" />
+    <section id="SecFirst">
+      <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+        <source src="./assets/VSFD.mp4" type="video/mp4" />
+      </video>
+      <ul class="slide-in-top">
+        <li
+          id="IsoCoExCont"
+          class="logo scroll"
+          data-sratey="-1.2"
+          data-dir="ver"
+        >
+          <img id="IsoCoEx" src="./assets/isotipo.png" alt="Isotipo Logo" />
         </li>
-        <li class="logo" id="colonia" data-sratey="-0.30" data-dir="ver">
+        <li class="logo scroll" id="colonia" data-sratey="-1.1" data-dir="ver">
           colonia
         </li>
-        <li class="logo scroll" id="express" data-sratey="-0.50" data-dir="ver">
+        <li class="logo scroll" id="express" data-sratey="-1.3" data-dir="ver">
           express
         </li>
       </ul>
-      <span class="scroll" data-sratex="2.5" data-sratey="1" data-dir="hor"
-        ><img src="./assets/SF.png" alt="Super Ferry "
+      <span
+        id="SFCont"
+        class="slide-in-left scroll"
+        data-sratex="2.5"
+        data-sratey="1"
+        data-dir="hor"
+        ><img id="SF" src="./assets/SF.png" alt="Super Ferry"
       /></span>
     </section>
     <section></section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
