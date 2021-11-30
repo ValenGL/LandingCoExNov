@@ -344,6 +344,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   overflow-x: hidden;
+  background-color: white;
 }
 
 section {
@@ -377,10 +378,9 @@ section {
 
 #videoBG {
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.4;
   z-index: -1;
   width: 100%;
-  height: auto;
 }
 
 ul {
@@ -413,6 +413,26 @@ ul {
 @media only screen and (max-width: 800px) {
   #SFCont {
     display: none;
+  }
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 800px) {
+  #videoBG {
+    display: none;
+  }
+
+  body {
+    background: url(".././assets/SFMBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color: #fff;
   }
 }
 .slide-in-left {
