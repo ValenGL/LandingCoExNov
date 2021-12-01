@@ -18,8 +18,7 @@ window.addEventListener("scroll", () => {
 
 validateSF = () => {
   let x = window.pageYOffset;
-
-  if (x > 1000) {
+  if (x > 700) {
     $("#SFCont").addClass("off");
     $("#SFCont").removeClass("slide-in-left");
   } else if (x === 0 && $("#SFCont").hasClass("off")) {
