@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing CoEx</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Colonia Express | FIT</title>
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <section id="SecFirst">
       <video id="videoBG" poster="./assets/SFMBG.png" autoplay muted loop>
         <source src="./assets/VSFD.mp4" type="video/mp4" />
       </video>
-      <ul class="slide-in-top">
+      <ul class="slide-in-top ulC">
         <li
           id="IsoCoExCont"
           class="logo scroll"
@@ -29,14 +35,6 @@
           express
         </li>
       </ul>
-      <span
-        id="SFCont"
-        class="slide-in-left scroll"
-        data-sratex="2.5"
-        data-sratey="0"
-        data-dir="hor"
-        ><img id="SF" src="./assets/SF.png" alt="Super Ferry"
-      /></span>
     </section>
     <main>
       <!--Waves Container-->
@@ -79,44 +77,144 @@
         </svg>
       </div>
       <!--Waves end-->
-      <div class="bgw">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-        excepturi modi ipsa hic explicabo eaque ex ut, obcaecati magnam possimus
-        sunt ab velit provident commodi. Iure quod, ratione ipsa voluptatem,
-        cumque, ipsam illum itaque explicabo exercitationem quasi eligendi cum!
-        Ex doloribus quam eos culpa nihil quos velit nesciunt consequatur odio
-        vel magnam a perferendis, repellat officiis ipsa eaque quod sint aliquid
-        repellendus porro! Temporibus magni et nisi odit, ab, maiores repellat
-        voluptates quaerat earum harum enim eligendi repudiandae corrupti
-        provident! Non distinctio facilis iure. Consequuntur culpa facere saepe
-        quis, temporibus non pariatur inventore doloribus totam accusamus
-        delectus consequatur maxime voluptate cumque labore est? Mollitia
-        inventore sequi iste temporibus architecto reiciendis ea? Nesciunt ullam
-        repellat nisi aliquid voluptates, autem minus unde nostrum. Sunt
-        recusandae iste eveniet veniam placeat consequatur tempora quas facere
-        sequi sit nemo sint excepturi architecto asperiores laudantium similique
-        necessitatibus quidem unde error facilis exercitationem, dolorum
-        deserunt temporibus? Ipsa. Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Repellendus impedit quibusdam a ut nisi eveniet
-        numquam sint ea quidem doloremque! Est facere aliquam explicabo quas
-        perspiciatis, dolorem tempora omnis, architecto dolores voluptate
-        consequatur temporibus cupiditate ea eum debitis delectus nihil totam
-        eaque possimus cumque et ducimus! Natus, esse. Laboriosam veniam omnis
-        eaque quo esse minima quaerat a repudiandae? Quaerat, cumque quod!
-        Voluptates, laudantium. Omnis totam illo cumque corporis inventore sint?
-        Corporis repellat ipsa quisquam porro voluptas vero maxime quidem
-        facilis laudantium, debitis molestias delectus nam ipsum modi soluta
-        eius officia autem quam qui tempore ab quia minus! Aut praesentium
-        minima asperiores repellat voluptates consectetur culpa tenetur natus
-        ipsa et odit obcaecati omnis distinctio recusandae maxime voluptatum
-        quo, iusto voluptate dicta, nostrum velit ipsum? Ipsum, possimus
-        inventore unde quibusdam corrupti vitae architecto voluptatibus
-        dignissimos labore asperiores illum veniam, nostrum voluptatum
-        laudantium dolorum nam pariatur aliquam ad saepe odio non voluptas.
-        Ipsam.
+      <div>
+        <div class="flex-container">
+          <img
+            id="bannerFit"
+            src="./assets/FIT.jpg"
+            alt="Fit 4-7 de Diciembre"
+          />
+          <br />
+          <div class="logoContainer">
+            <img
+              id="ColoniaExpress"
+              src="./assets/CoExLogo.png"
+              alt="Logo ColoniaExpress"
+            />
+          </div>
+
+          <div class="HeroMain">
+            <img
+              class="heroMain-img"
+              src="./assets/HeroMainImg.jpg"
+              alt="Hero Publicitario
+          Main"
+            />
+          </div>
+
+          <div class="info-container">
+            <h2 class="fs-3 text">Sobre nosotros</h2>
+            <p class="fs-6 text fw-normal text-center txtMain">
+              Colonia Express es una empresa de transporte fluvial de pasajeros,
+              que conecta las ciudades de Buenos Aires (Argentina) y Colonia del
+              Sacramento (Uruguay), gracias a una moderna flota de catamaranes
+              de alta velocidad. Además, cuenta con un exclusivo servicio de
+              buses que lo acercarán a las ciudades de Montevideo, Punta del
+              Este y otros destinos en el interior de Uruguay.
+            </p>
+
+            <img
+              class="imgMain"
+              src="./assets/CoExEd.jpeg"
+              alt="Edificio Colonia Express"
+            />
+            <br />
+            <h2 class="fs-3 text">Nuestra misión</h2>
+            <p class="fs-6 text fw-normal text-center txtMain">
+              Nuestra misión es brindarle a nuestros clientes un servicio de
+              alta calidad, rápido y seguro a un costo más accesible. Buscamos
+              el beneficio y satisfacción total de nuestros pasajeros,
+              basándonos en nuestra capacidad de identificar sus deseos y
+              necesidades. Nos comprometemos a ser una empresa con personal
+              capaz y motivado porque sabemos que de ello depende el éxito de
+              nuestra empresa.
+            </p>
+
+            <img
+              class="imgMain"
+              src="./assets/CoExEd.jpeg"
+              alt="Edificio Colonia Express"
+            />
+            <br />
+            <h2 class="fs-3 text">Nuestros inicios</h2>
+            <p class="fs-6 text fw-normal text-center txtMain">
+              Nuestro primer catamarán, botado bajo el nombre de Colonia
+              Express, está equipado con la más reciente tecnología. El
+              catamarán rápido ColoniaExpress cuenta con el mayor confort que el
+              mercado podría ofrecer: cafetería self-service, free shop a bordo,
+              TV con pantallas LCD, asientos well back supported, para que su
+              descanso comience en el viaje.
+            </p>
+
+            <img
+              class="imgMain"
+              src="./assets/CoExIn.jpeg"
+              alt="Edificio Colonia Express"
+            />
+            <br />
+            <h2 class="fs-2 text">Nuestros destinos</h2>
+
+            <div class="DtnCont">
+              <img
+                class="DtnCont-img"
+                src="./assets/destinos/1.png"
+                alt="Colonia"
+              />
+
+              <img
+                class="DtnCont-img"
+                src="./assets/destinos/2.png"
+                alt="Montevideo"
+              />
+
+              <img
+                class="DtnCont-img"
+                src="./assets/destinos/3.png"
+                alt="Carmelo"
+              />
+
+              <img
+                class="DtnCont-img"
+                src="./assets/destinos/4.png"
+                alt="Punta del este"
+              />
+
+              <img
+                class="DtnCont-img"
+                src="./assets/destinos/5.png"
+                alt="Buenos Aires"
+              />
+            </div>
+          </div>
+
+          <div class="buttonsContainer d-grid col-6 mx-auto">
+            <button id="DesCoEx" class="btn btn-danger" type="button">
+              <a href="./juego.html">Desafío Colonia Express</a>
+            </button>
+
+            <button id="DesCoEx" class="btn btn-danger" type="button">
+              <a target="_blank" href="https://www.coloniaexpress.com/"
+                >Nuestro sitio</a
+              >
+            </button>
+          </div>
+        </div>
       </div>
+
+      <footer>
+        <p class="fw-light text-center text">
+          © 2021 | COLONIA EXPRESS | TODOS LOS DERECHOS RESERVADOS Operador
+          Responsable Ocean Export S.A. Legajo N° 13142. Exp. N° 1562/06.
+          Ministerio de Turismo y Deportes de la Nación - República Argentina.
+        </p>
+      </footer>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
