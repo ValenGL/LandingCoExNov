@@ -1,0 +1,26 @@
+[
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cual es el destino más lejano?",
+    "respuesta": "Punta del este",
+    "incorrecta1": "Colonia",
+    "incorrecta2": "Montevideo",
+    "incorrecta3": "Carmelo"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Quién es?",
+    "respuesta": "Homero",
+    "incorrecta1": "Samuel",
+    "incorrecta2": "Miguel",
+    "incorrecta3": "Pitagoras"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "Serie americana donde los personajes son amarillos",
+    "respuesta": "Los simpsos",
+    "incorrecta1": "Padre de familia",
+    "incorrecta2": "South park",
+    "incorrecta3": "La casa de los dibujos"
+  }
+]

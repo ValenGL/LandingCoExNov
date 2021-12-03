@@ -4,10 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafío CoEx</title>
+    <title>Colonia Express | FIT</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-    <h1>Bienvenido al desafío Colonia Express</h1>
+
+  <body class="bodyJuego">
+    <main>
+      <h1 class="text-center">Desafío</h1>
+      <div class="logoContainerJ">
+        <img
+          id="ColoniaExpress"
+          src="./assets/CoExLogo.png"
+          alt="Logo ColoniaExpress"
+        />
+      </div>
+      <div class="containerJuego gmp">
+        <div class="puntaje" id="puntaje"></div>
+        <div class="encabezado">
+          <div class="categoria" id="categoria"></div>
+          <div class="numero" id="numero"></div>
+          <div class="pregunta" id="pregunta"></div>
+          <img src="#" class="imagen" id="imagen" />
+        </div>
+        <div class="btnj" id="btn1" onclick="oprimir_btn(0)"></div>
+        <div class="btnj" id="btn2" onclick="oprimir_btn(1)"></div>
+        <div class="btnj" id="btn3" onclick="oprimir_btn(2)"></div>
+        <div class="btnj" id="btn4" onclick="oprimir_btn(3)"></div>
+      </div>
+    </main>
+    <footer>
+      <p class="fw-light text-center text">
+        © 2021 | COLONIA EXPRESS | TODOS LOS DERECHOS RESERVADOS Operador
+        Responsable Ocean Export S.A. Legajo N° 13142. Exp. N° 1562/06.
+        Ministerio de Turismo y Deportes de la Nación - República Argentina.
+      </p>
+    </footer>
+    <!--Waves Container-->
+    <div>
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28"
+        preserveAspectRatio="none"
+        shape-rendering="auto"
+      >
+        <defs>
+          <path
+            id="gentle-wave"
+            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+          />
+        </defs>
+        <g class="parallax">
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="0"
+            fill="rgba(255,255,255,0.7"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="3"
+            fill="rgba(255,255,255,0.5)"
+          />
+          <use
+            xlink:href="#gentle-wave"
+            x="48"
+            y="5"
+            fill="rgba(255,255,255,0.3)"
+          />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+      </svg>
+    </div>
+    <!--Waves end-->
     <span
       id="SFCont"
       class="slide-in-left scroll"
@@ -16,5 +94,12 @@
       data-dir="hor"
       ><img id="SF" src="./assets/SF.png" alt="Super Ferry"
     /></span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/juego.js"></script>
   </body>
 </html>
