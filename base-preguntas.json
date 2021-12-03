@@ -42,35 +42,19 @@
   },
   {
     "categoria": "Colonia Express",
-    "pregunta": "¿Qué puntos de ventas NO tenemos?",
-    "respuesta": "Shopping Las Palmas de Pilar",
-    "incorrecta1": "Terminal de Buenos Aires",
-    "incorrecta2": "Shopping Alto Palermo",
-    "incorrecta3": "Galerías Pacífico"
-  },
-  {
-    "categoria": "Colonia Express",
     "pregunta": "¿Qué requisitos necesitas para viajar?",
-    "respuesta": "PCR negativo",
+    "respuesta": "Todas son correctas",
     "incorrecta1": "DDJJ",
     "incorrecta2": "Vacunas",
-    "incorrecta3": "Todas son correctas"
+    "incorrecta3": "PCR negativo"
   },
   {
     "categoria": "Colonia Express",
     "pregunta": "¿En qué año comenzó a operar Colonia Express?",
     "respuesta": "2007",
     "incorrecta1": "2005",
-    "incorrecta2": "2007",
+    "incorrecta2": "2004",
     "incorrecta3": "2006"
-  },
-  {
-    "categoria": "Colonia Express",
-    "pregunta": "¿Cuántos barcos tiene Colonia Express?",
-    "respuesta": "4",
-    "incorrecta1": "3",
-    "incorrecta2": "5",
-    "incorrecta3": "6"
   },
   {
     "categoria": "Colonia Express",
@@ -87,5 +71,21 @@
     "incorrecta1": "Montevideo",
     "incorrecta2": "Colonia del sacramento",
     "incorrecta3": "Carmelo"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cuál es el destino más lejano al que llega Colonia Express?",
+    "respuesta": "Punta del este",
+    "incorrecta1": "Montevideo",
+    "incorrecta2": "Colonia del sacramento",
+    "incorrecta3": "Carmelo"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cuántos viajes realiza Colonia Express por día?",
+    "respuesta": "3",
+    "incorrecta1": "5",
+    "incorrecta2": "4",
+    "incorrecta3": "2"
   }
 ]
