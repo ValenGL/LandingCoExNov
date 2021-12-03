@@ -534,7 +534,7 @@ section {
     display: none;
   }
 
-  bodyMain {
+  .bodyMain {
     background: url(".././assets/SFMBG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -699,13 +699,13 @@ footer {
   visibility: visible;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 800px) {
   .content {
-    width: 43%;
+    width: 20%;
   }
 
   #button {
-    margin: 30px;
+    margin-bottom: 5rem;
   }
 }
 .bodyJuego {
