@@ -654,8 +654,8 @@ section {
 }
 
 // Button DesCoEx
-#DesCoEx {
-  margin: 0.5rem;
+#SiteCoEx {
+  margin: 3rem;
   padding: 1rem;
   font-size: large;
 }
@@ -680,8 +680,8 @@ footer {
   text-align: center;
   border-radius: 10px;
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 1.5rem;
+  right: 1.5rem;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -730,6 +730,9 @@ footer {
   background-position: center center;
 }
 
+#desafio {
+  text-shadow: 5px 5px 10px black;
+}
 .gmp {
   background: rgba(6, 0, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
