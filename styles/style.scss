@@ -760,6 +760,9 @@ footer {
   justify-content: center;
   align-items: center;
   transition: all 0.3s;
+  &Text {
+    margin: 1rem;
+  }
 }
 // juego
 
@@ -787,13 +790,14 @@ footer {
   padding: 1rem;
   transition: all 0.3s;
 }
+
 .btnj {
   color: black;
   background: white;
   width: 60%;
-  max-width: 550px;
-  padding: 10px;
-  margin: 5px;
+  max-width: 55rem;
+  padding: 1rem;
+  margin: 1rem;
   cursor: pointer;
   transition: all 0.3s;
   border-radius: 10px;
@@ -805,9 +809,7 @@ footer {
 
 .numero {
   position: absolute;
-  opacity: 0.3;
-  top: 1rem;
-  right: 1rem;
+  opacity: 0;
 }
 
 .puntaje {

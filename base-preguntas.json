@@ -1,26 +1,91 @@
 [
   {
     "categoria": "Colonia Express",
-    "pregunta": "¿Cual es el destino más lejano?",
-    "respuesta": "Punta del este",
-    "incorrecta1": "Colonia",
+    "pregunta": "¿A qué destinos te lleva Colonia Express?",
+    "respuesta": "Todas son correctas",
+    "incorrecta1": "Punta del este",
     "incorrecta2": "Montevideo",
+    "incorrecta3": "Colonia del sacramento",
+    "incorrecta4": "Carmelo"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Qué horario de salida NO tiene Colonia Express partiendo desde Buenos Aires?",
+    "respuesta": "16:30",
+    "incorrecta1": "12:30",
+    "incorrecta2": "08:15",
+    "incorrecta3": "18:15"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cuál es el nombre del barco más nuevo?",
+    "respuesta": "Superferry Express",
+    "incorrecta1": "Express Colonia",
+    "incorrecta2": "Atlantic Express",
+    "incorrecta3": "Express Ferry "
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Podés viajar toda la travesía al aire libre y con tu mascota a bordo?",
+    "respuesta": "Si, ambas",
+    "incorrecta1": "Si con mascota, pero no al aire libre",
+    "incorrecta2": "Si al aire libre, pero no con mascota",
+    "incorrecta3": "No, ninguna"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Qué puntos de ventas NO tenemos?",
+    "respuesta": "Shopping Las Palmas de Pilar",
+    "incorrecta1": "Terminal de Buenos Aires",
+    "incorrecta2": "Shopping Alto Palermo",
+    "incorrecta3": "Galerías Pacífico"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Qué puntos de ventas NO tenemos?",
+    "respuesta": "Shopping Las Palmas de Pilar",
+    "incorrecta1": "Terminal de Buenos Aires",
+    "incorrecta2": "Shopping Alto Palermo",
+    "incorrecta3": "Galerías Pacífico"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Qué requisitos necesitas para viajar?",
+    "respuesta": "PCR negativo",
+    "incorrecta1": "DDJJ",
+    "incorrecta2": "Vacunas",
+    "incorrecta3": "Todas son correctas"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿En qué año comenzó a operar Colonia Express?",
+    "respuesta": "2007",
+    "incorrecta1": "2005",
+    "incorrecta2": "2007",
+    "incorrecta3": "2006"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cuántos barcos tiene Colonia Express?",
+    "respuesta": "4",
+    "incorrecta1": "3",
+    "incorrecta2": "5",
+    "incorrecta3": "6"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cuál es el lema de la campaña 2022?",
+    "respuesta": "Reviví tus sueños",
+    "incorrecta1": "Volvé a soñar",
+    "incorrecta2": "Viajá otra vez",
+    "incorrecta3": "Soñá nuevamente"
+  },
+  {
+    "categoria": "Colonia Express",
+    "pregunta": "¿Cuál es el destino más lejano al que llega Colonia Express?",
+    "respuesta": "Punta del este",
+    "incorrecta1": "Montevideo",
+    "incorrecta2": "Colonia del sacramento",
     "incorrecta3": "Carmelo"
-  },
-  {
-    "categoria": "Colonia Express",
-    "pregunta": "¿Quién es?",
-    "respuesta": "Homero",
-    "incorrecta1": "Samuel",
-    "incorrecta2": "Miguel",
-    "incorrecta3": "Pitagoras"
-  },
-  {
-    "categoria": "Colonia Express",
-    "pregunta": "Serie americana donde los personajes son amarillos",
-    "respuesta": "Los simpsos",
-    "incorrecta1": "Padre de familia",
-    "incorrecta2": "South park",
-    "incorrecta3": "La casa de los dibujos"
   }
 ]
